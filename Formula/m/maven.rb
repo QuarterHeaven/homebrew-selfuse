@@ -23,6 +23,7 @@ class Maven < Formula
   end
 
   depends_on "openjdk"
+  depends_on "QuarterHeaven/selfuse/openssl@3"
 
   conflicts_with "mvnvm", because: "also installs a 'mvn' executable"
 
